@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+
+@font-face {
+  font-family: "SansaPro-Black";
+  src: url("https://tracks.sodexonet.com/modules/sodexo-corporates-templates/css/assets/fonts/SansaPro-Black.woff")
+      format("woff"),
+    url("https://tracks.sodexonet.com/modules/sodexo-corporates-templates/css/assets/fonts/SansaPro-Black.woff2")
+      format("woff2");
+}
+@font-face {
+  font-family: "SansaPro-Bold";
+  src: url("https://tracks.sodexonet.com/modules/sodexo-corporates-templates/css/assets/fonts/SansaPro-Bold.woff")
+      format("woff"),
+    url("https://tracks.sodexonet.com/modules/sodexo-corporates-templates/css/assets/fonts/SansaPro-Bold.woff2")
+      format("woff2");
+}
+@font-face {
+  font-family: "SansaPro-Normal";
+  src: url("https://tracks.sodexonet.com/modules/sodexo-corporates-templates/css/assets/fonts/SansaPro-Normal.woff")
+      format("woff"),
+    url("https://tracks.sodexonet.com/modules/sodexo-corporates-templates/css/assets/fonts/SansaPro-Normal.woff2")
+      format("woff2");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "SansaPro-Black", "Lato", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
