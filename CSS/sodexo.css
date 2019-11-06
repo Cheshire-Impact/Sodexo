@@ -1,0 +1,297 @@
+.container {
+  max-width: 900px;
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "SansaPro-SemiBold", "SansaPro-ru_bold";
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 32px;
+  color: #2a295c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 22px;
+  font-family: "SansaPro-SemiBold", "SansaPro-ru_bold";
+  line-height: 30px;
+  color: #2a295c;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-size: 19px;
+  font-family: "SansaPro-SemiBold", "SansaPro-ru_bold";
+  line-height: 25px;
+  color: #2a295c;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #424242;
+  line-height: 25px;
+}
+.mainBodyPad {
+  padding-right: 30px;
+}
+.noPad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.bodysecPadTop {
+  padding-top: 25px;
+}
+.bodysecPadBottom {
+  padding-bottom: 25px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+.alignRight {
+  text-align: right;
+}
+.alignLeft {
+  text-align: left;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.black {
+  color: #424242;
+}
+.padTop {
+  padding-top: 15px;
+}
+.padLeft {
+  padding-left: 15px;
+}
+.padRight {
+  padding-right: 20px;
+}
+.padTopHeader {
+  padding-top: 25px;
+}
+
+#header {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.mainBodyPad {
+  padding-right: 30px;
+}
+#header p {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "SansaPro-SemiBold", "SansaPro-ru_bold";
+  color: #2a295c;
+}
+#header p a {
+  color: #2a295c;
+}
+.full_width .left_sec {
+  width: 100%;
+}
+.full_width .right_sec {
+  display: none;
+}
+.full_width .text_sec {
+  width: 75%;
+}
+.full_width .img_sec {
+  width: 25%;
+}
+#banner {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#bodysec1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.imgPadTop {
+  padding-top: 30px;
+}
+
+#bodysec2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#bodysec3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#bodysec4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#bodysec5 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#bodysec6 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footer {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+/*Form styling*/
+.mktoGutter.mktoHasWidth {
+  width: 0px !important;
+}
+.mktoAsterix {
+  display: none !important;
+}
+.form {
+  max-width: 271px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.mktoForm {
+  background-color: #ffffff;
+  width: 271px !important;
+}
+.mktoForm .mktoLabel {
+  font-size: 14px !important;
+  font-family: arial, sans-serif !important;
+  color: #2a295c;
+}
+
+.mktoButtonRow {
+  text-align: center !important;
+}
+
+.mktoOffset {
+  width: 0px !important;
+}
+.mktoForm input[type="text"],
+.mktoForm input[type="url"],
+.mktoForm input[type="email"],
+.mktoForm input[type="tel"],
+.mktoForm input[type="number"],
+.mktoForm input[type="date"],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField {
+  padding: 5px 3px !important;
+  max-width: 140px !important;
+}
+/*Media query starts here */
+@media (max-width: 767px) {
+  .alignRight {
+    text-align: left;
+  }
+  .imgPadTop {
+    padding-top: 20px;
+  }
+  .bodysec4imgPadTop {
+    padding-top: 25px;
+  }
+
+  #bodysec1 {
+    padding-top: 10px;
+  }
+  .padLeft {
+    padding-left: 0px;
+  }
+  .mainBodyPad {
+    padding-right: 0px;
+  }
+  h2 {
+    margin-top: 10px;
+  }
+  .mktoLabel.mktoHasWidth {
+    padding-bottom: 10px;
+  }
+  .mktoButtonRow {
+    display: block !important;
+    text-align: center !important;
+  }
+  .mktoButtonWrap {
+    margin-left: 0px !important;
+    margin-top: 10px !Important;
+  }
+  .full_width .text_sec {
+    width: 100%;
+  }
+  .full_width .img_sec {
+    width: 100%;
+  }
+  .form_pad {
+    padding-top: 20px;
+  }
+  .mktoForm {
+    margin: 0 auto !important;
+    padding: 0px !important;
+    width: 100% !important;
+  }
+  .mktoFieldDescriptor.mktoFormCol {
+    width: 100% !important;
+  }
+  .mktoFieldWrap.mktoRequiredField {
+    width: 100% !important;
+  }
+  .mktoForm .mktoLabel {
+    width: 100% !important;
+  }
+  .mktoForm input[type="text"],
+  .mktoForm input[type="url"],
+  .mktoForm input[type="email"],
+  .mktoForm input[type="tel"],
+  .mktoForm input[type="number"],
+  .mktoForm input[type="date"],
+  .mktoForm textarea.mktoField,
+  .mktoForm select.mktoField {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #bodysec1 {
+    padding-top: 20px;
+  }
+  .mktoForm {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .padLeft {
+    padding-left: 20px;
+  }
+  .padRight {
+    padding-right: 20px;
+  }
+  .padLeftImg {
+    padding-left: 20px;
+  }
+  .padRightImg {
+    padding-right: 20px;
+  }
+}
