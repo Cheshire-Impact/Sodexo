@@ -1,0 +1,19 @@
+.main-content {
+  padding: 60px 25px;
+  p {
+    margin-bottom: 30px;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  a {
+    position: relative;
+    padding-bottom: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 0 red;
+    box-shadow: inset 0 -1px 0 0 red;
+    color: #424242;
+    &:hover {
+      color: red;
+    }
+  }
+}

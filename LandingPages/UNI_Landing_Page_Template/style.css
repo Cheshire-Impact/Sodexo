@@ -1,0 +1,24 @@
+.main-content {
+  padding: 60px 25px;
+}
+
+.main-content p {
+  margin-bottom: 30px;
+}
+
+.main-content h2 {
+  margin-bottom: 30px;
+}
+
+.main-content a {
+  position: relative;
+  padding-bottom: 3px;
+  -webkit-box-shadow: inset 0 -1px 0 0 red;
+  box-shadow: inset 0 -1px 0 0 red;
+  color: #424242;
+}
+
+.main-content a:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
