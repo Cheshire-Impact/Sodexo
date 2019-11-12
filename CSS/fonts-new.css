@@ -1,0 +1,29 @@
+@font-face {
+  font-family: SansaPro-Normal;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://us.sodexo.com/modules/sodexo-corporates-templates//css/assets/fonts/SansaPro-Normal.woff2)
+      format("woff2"),
+    url(https://us.sodexo.com/modules/sodexo-corporates-templates//css/assets/fonts/SansaPro-Normal.woff2/css/assets/fonts/SansaPro-Normal.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: SansaPro-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://us.sodexo.com/modules/sodexo-corporates-templates//css/assets/fonts/SansaPro-Normal.woff2/css/assets/fonts/SansaPro-Bold.woff2)
+      format("woff2"),
+    url(https://us.sodexo.com/modules/sodexo-corporates-templates//css/assets/fonts/SansaPro-Normal.woff2/css/assets/fonts/SansaPro-Bold.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: SansaPro-Black;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://us.sodexo.com/modules/sodexo-corporates-templates//css/assets/fonts/SansaPro-Normal.woff2/css/assets/fonts/SansaPro-Black.woff2)
+      format("woff2"),
+    url(https://us.sodexo.com/modules/sodexo-corporates-templates//css/assets/fonts/SansaPro-Normal.woff2/css/assets/fonts/SansaPro-Black.woff)
+      format("woff");
+}
