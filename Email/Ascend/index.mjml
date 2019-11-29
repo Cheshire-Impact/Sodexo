@@ -1,0 +1,291 @@
+<mjml>
+  <mj-head>
+    <mj-title>%%subject%%</mj-title>
+    <mj-attributes>
+
+      <!-- Spacing Defaults -->
+      <mj-all padding="0px" />
+
+      <mj-section padding-left="10px" padding-right="10px" />
+      <mj-column padding="10px" />
+      <mj-button padding-top="15px" padding-bottom="15px" />
+      <mj-divider padding-top="10px" padding-bottom="10px" />
+      <mj-text padding="5px" />
+      <mj-navbar-link padding-left="10px" padding-right="10px" />
+
+
+      <!-- Handle Pardot Regions -->
+      <mj-section css-class="pardot-repeat-remove" background-color="#fff" />
+      <mj-navbar-link css-class="pardot-region" />
+      <mj-image rel="pardot-region" alt="Image" />
+      <mj-button css-class="pardot-removable" />
+
+
+
+      <!-- Background Colors -->
+
+      <mj-body background-color="#f2f2f2" />
+      <mj-section background-color="#fff" />
+      <mj-class name="greyBG" background-color="#f2f2f2" />
+
+      <!-- Default Styles for All Elements -->
+      <mj-all color="#4d4d4d" font-family="Arial, Helvetica, sans-serif" font-size="14px" line-height="21px" />
+
+      <!-- Custom Text Colors -->
+      <mj-class name="darkBlue" color="#252353" />
+
+
+
+
+      <!-- Image Styling *** NOTE: By Default All Images Are Set To Fluid/Responsive And Have A URL Of #, Manually Adjust Static Images and Remove Links With href="" *** -->
+      <mj-image align="center" fluid-on-mobile="true" href="#" />
+
+
+
+      <!-- Button Styles -->
+      <mj-button href="#" font-weight="700" text-transform="uppercase" border-radius="2px" rel="pardot-region" background-color="#ed1c24" color="#fff" align="left" container-background-color="#fff" padding-left="20px" padding-top="0px" />
+
+
+      <!-- Default Divider Style -->
+      <mj-divider border-width="2px" border-style="solid" border-color="#b3b3b3" />
+
+
+    </mj-attributes>
+
+
+
+    <!-- Styles Place In Head -->
+    <mj-style>
+      a {
+        color: #003c74;
+      }
+
+      a:link {
+        color: #003c74;
+      }
+
+      a:visited {
+        color: #003c74;
+      }
+
+      a.whiteLink {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
+
+      a.greyLink {
+        color: #4d4d4d !important;
+        text-decoration: none !important;
+      }
+
+      a.purpleLink {
+        color: #252353 !important;
+        text-decoration: none !important;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .product-news-icon {
+        margin-top: -20px;
+      }
+    </mj-style>
+
+
+    <!-- Media Queries -->
+
+    <mj-style>
+      @media (max-width:480px) {
+      .mobileCenter > div {
+      width: 100% !important;
+      text-align: center !important;
+      }
+      .unPad {
+      padding: 10px !important;
+      }
+      .mobileHide {
+      display:none;
+      }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+
+    <mj-section background-color="#ed1c24">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section padding-top="10px" padding-bottom="0px" padding-left="0px" padding-right="0px">
+      <mj-column padding="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2019-11-29/6gfb/786623/19103/ascend_email_header.png" width="600px" padding="0px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column padding-bottom="4px" padding-top="0px">
+        <mj-text mj-class="darkBlue" font-weight="600" padding-top="0px" padding-bottom="0px" align="center">
+          <div id="pardot-region">DECEMBER 2019 | Issue 1</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="75px">
+      <mj-column width="70%" padding-top="0px">
+        <mj-text align="left" mj-class="darkBlue" font-weight="bold" text-transform="uppercase" font-size="18px" line-height="26px" padding-bottom="0px" padding-top="0px">
+          <div id="pardot-region">Satisfaction Is Not Enough
+          </div>
+        </mj-text>
+        <mj-text align="left" mj-class="darkBlue" padding-top="0px">
+          <div id="pardot-region">When it comes to building customer loyalty through your airline lounge, satisfaction is simply not enough: Premium travelers seek out extraordinary experiences with a personal touch alongside innovative solutions to their practical needs. In this issue of Ascend, our new bi-monthly newsletter, Sodexo’s dedicated Airline Lounges team offers insights and intelligence to help you capture the loyalty of these valued customers by exceeding the expectations of tomorrow’s traveler, today.</div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="30%" padding="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2019-11-29/6gfd/786623/19105/Suzy_Kitcher_Photo.png" alt="Suzy Kitcher" width="120px" border="2px solid #ccc" align="left" />
+        <mj-text align="left" padding-top="0px" padding-left="0px">
+          <div id="pardot-region" style="font-weight: 800; padding-bottom:0px;">Suzy Kitcher</div>
+          <div id="pardot-region" style="font-size: 13px; line-height: 17px; font-weight:600; padding-top:0px;">CEO, Sodexo Global Airline Lounges</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section background-url="https://go.sodexo.com/l/786623/2019-11-29/6gfz/786623/19121/elevated_thinking_bg.png" background-repeat="no-repeat" padding-left="0px">
+      <mj-column width="50%" padding="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2019-11-29/6gfx/786623/19117/elevated_thinking_logo.png" width="150px" fluid-on-mobile="false" padding="0px" align="left" />
+        <mj-spacer css-class="mobileHide" height="400px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="bottom" padding-bottom="0px">
+        <mj-text container-background-color="#fff" mj-class="darkBlue" font-size="20px" line-height="24px" font-weight="800">
+          <div id="pardot-region" style="padding: 15px; padding-bottom:0px">Innovation + Quality: Building Passenger Loyalty through the Airline Lounge</div>
+        </mj-text>
+        <mj-text container-background-color="#fff">
+          <div id="pardot-region" style="padding: 15px;padding-top:0px">Airlines can increase passenger loyalty by prioritizing innovation and quality when building brand identities that reflect customers’ self-image. </div>
+        </mj-text>
+        <mj-button>
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-url="https://go.sodexo.com/l/786623/2019-11-29/6gg4/786623/19125/touchpoints_bg.png" background-repeat="no-repeat" padding-left="0px">
+      <mj-column width="50%" padding="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2019-11-29/6gg2/786623/19123/touch_points_logo.png" width="150px" fluid-on-mobile="false" padding="0px" align="left" />
+        <mj-spacer css-class="mobileHide" height="400px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="bottom" padding-bottom="0px">
+        <mj-text container-background-color="#fff" mj-class="darkBlue" font-size="20px" line-height="24px" font-weight="800">
+          <div id="pardot-region" style="padding: 15px; padding-bottom:0px">Functional Plant-Based Foods for the Airline Lounge</div>
+        </mj-text>
+        <mj-text container-background-color="#fff">
+          <div id="pardot-region" style="padding: 15px;padding-top:0px">Air travel heightens dehydration, inflammation and more. “Understanding how plant-based foods alleviate such challenges, we carefully select the right foods for inclusion in clients’ lounges,” notes Glynn Lawrence, Sodexo’s Airline Lounges Global Executive Chef.</div>
+        </mj-text>
+        <mj-button>
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-repeat="no-repeat" background-color="#252353" padding-left="0px">
+      <mj-column width="50%" padding="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2019-11-29/6gfv/786623/19119/fly_by_the_numbers_logo.png" width="150px" fluid-on-mobile="false" padding="0px" align="left" />
+        <mj-image src="https://go.sodexo.com/l/786623/2019-11-29/6gfq/786623/19113/fly_by_the_numbers_infographic.png" padding-top="30px" padding-left="20px" border="2px solid #fff" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="bottom" padding-bottom="0px">
+        <mj-text css-class="unPad" color="#fff" font-size="20px" line-height="24px" font-weight="800">
+          <div id="pardot-region" style="padding: 15px; padding-bottom:0px">Welcoming the Millennial Business Traveler</div>
+        </mj-text>
+        <mj-text css-class="unPad" color="#fff">
+          <div id="pardot-region" style="padding: 15px;padding-top:0px">Today, 1 in 3 airline passengers are millennials traveling for work. 75% of millennials see business travel as a major work perk, and 39% wouldn’t take a job that doesn’t allow them to travel for business. Understanding this group will be increasingly important to successful lounge operations.</div>
+        </mj-text>
+        <mj-button container-background-color="transparent">
+          Read More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section background-color="#cbc7c0" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" css-class="unPad" mj-class="darkBlue" padding-top="0px" padding-left="40px" padding-right="40px">
+          <div id="pardot-region">To learn more about how Sodexo’s innovative approach to premium lounge services can increase guest visits and build traveler loyalty, please contact us at
+
+            <a class="purpleLink" href="mailto:globalairlinelounges@sodexo.com" style="color: #252353 !important; text-decoration: none !important;"><span style="color: #252353 !important; text-decoration: none !important;">
+                <font style="color: #252353 !important; text-decoration: none !important;">globalairlinelounges@sodexo.com.</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ed1c24">
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td style="padding-right: 10px;"><a href="https://www.linkedin.com/company/sodexo/" target="_blank" rel="pardot-region">
+                <img alt="Image" height="auto" src="https://go.sodexo.com/l/786623/2019-11-29/6gfs/786623/19115/sodexo_quality_of_life_logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:150px;font-size:14px;" width="150" />
+              </a>
+            </td>
+            <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
+              <a href="https://www.linkedin.com/company/omnisys-llc/" target="_blank">
+                <img height="32" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:3px;display:block;" width="32" />
+              </a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" css-class="unPad" mj-class="darkBlue" font-size="12px" line-height="18px" padding-top="0px" padding-left="40px" padding-right="40px">
+          <div id="pardot-region">
+            <a class="purpleLink" href="#" style="color: #252353 !important; text-decoration: none !important;"><span style="color: #252353 !important; text-decoration: none !important;">
+                <font style="color: #252353 !important; text-decoration: none !important;">9801 Washingtonian Blvd., Gaithersburg, MD 20878</font>
+              </span></a></div>
+          <div id="pardot-region">
+
+            <a class="purpleLink" href="%%email_preference_center%%" style="color: #252353 !important; text-decoration: none !important;"><span style="color: #252353 !important; text-decoration: none !important;">
+                <font style="color: #252353 !important; text-decoration: none !important;">Update Email Preferences</font>
+              </span></a> | <a class="purpleLink" href="%%email_preference_center%%" style="color: #252353 !important; text-decoration: none !important;"><span style="color: #252353 !important; text-decoration: none !important;">
+                <font style="color: #252353 !important; text-decoration: none !important;">Unsubscribe</font>
+              </span></a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
