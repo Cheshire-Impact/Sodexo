@@ -57,8 +57,24 @@
         font-weight: 700;
       }
 
-      body:nth-child(3) {
-          padding-top: 20px;
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      section, header, footer {
+        width: 100%;
+      }
+
+      section:not(#linkedin-section) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      
+      #hero {
+        padding-top: 0px !important;
       }
 
       .block-headerbanner.block-media .block-content {
@@ -191,7 +207,7 @@
       </div>
     </section>
 
-    <section id="full-width-content-1" class="inner-width py-2">
+    <section id="full-width-content-1" class="inner-width">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -208,10 +224,10 @@
         </div>
         </div>
     </section>
-    <section id="two-column-form-right" class="inner-width py-2">
+    <section id="two-column-form-right" class="inner-width">
         <div class="container">
         <div class="row">
-          <div class="col-md-4 order-md-1">
+          <div class="col-md-4 order-md-1 main-content">
             %%content%%
           </div>
           <div class="col-md-8">
@@ -244,17 +260,60 @@
                     plans, address concerns and look ahead at challenges and next
                     steps.
                   </p>
-              </h3>
+              
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="two-column-form-left" class="inner-width py-2">
+    <section id="two-column-image-right" class="inner-width">
+      <div class="container">
+      <div class="row">
+        <div pardot-region="2 Column Image Right - Image" class="col-md-4 order-md-1 main-content">
+          <img class="img-fluid" src="https://picsum.photos/500/610" alt="Placeholder">
+        </div>
+        <div class="col-md-8">
+          <div pardot-region="2 Column Image Right - Content" class="main-content">
+              <p>
+                  <strong
+                    >A positive physical environment is one of the most important
+                    factors in retention:</strong
+                  >
+                </p>
+                <p>
+                  Campus life takes some adjusting to and it&rsquo;s essential for
+                  students to feel at home from day one. The University of Tampa
+                  (UT), a private institution in Florida, wanted to create a place
+                  for their students that they would want to come back to year
+                  after year.
+                </p>
+  
+                
+  
+                <h2 class="title-2">
+                  Constructing the new Innovation and Collaboration Building
+                  Project
+                </h2>
+  
+                <p>
+                  As part of our partnership with UT, we hosted an annual
+                  expectations meeting where we brought together our senior
+                  managers and key personnel from UT to discuss issues, offer new
+                  plans, address concerns and look ahead at challenges and next
+                  steps.
+                </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="two-column-form-left" class="inner-width">
         <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 main-content">
             %%content%%
           </div>
           <div class="col-md-8">
@@ -295,14 +354,65 @@
                   title="US-Tampa-CaseStudy-Digital-English.pdf"
                   >Download the full case study.</a
                 >
-              </h3>
+             
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="full-width-content-2" class="inner-width py-2">
+    <section id="two-column-image-left" class="inner-width">
+      <div class="container">
+      <div class="row">
+        <div pardot-region="2 Column Image Left - Image" class="col-md-4 main-content">
+          <img class="img-fluid" src="https://picsum.photos/500/600" alt="Placeholder">
+        </div>
+        <div class="col-md-8">
+          <div pardot-region="2 Column Image Left - Content" class="main-content">
+            <p>
+              <strong
+                >A positive physical environment is one of the most important
+                factors in retention:</strong
+              >
+            </p>
+            <p>
+              Campus life takes some adjusting to and it&rsquo;s essential for
+              students to feel at home from day one. The University of Tampa
+              (UT), a private institution in Florida, wanted to create a place
+              for their students that they would want to come back to year
+              after year.
+            </p>
+
+            
+
+            <h2 class="title-2">
+              Constructing the new Innovation and Collaboration Building
+              Project
+            </h2>
+
+            <p>
+              As part of our partnership with UT, we hosted an annual
+              expectations meeting where we brought together our senior
+              managers and key personnel from UT to discuss issues, offer new
+              plans, address concerns and look ahead at challenges and next
+              steps.
+            </p>
+            <h3 class="title-3">
+              <a
+                data-referencedlink="false"
+                href="https://go.sodexo.com/l/786623/2019-10-22/4fyn/786623/15355/US_Tampa_CaseStudy_Digital_English.pdf"
+                target="_blank"
+                title="US-Tampa-CaseStudy-Digital-English.pdf"
+                >Download the full case study.</a
+              >
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="full-width-content-2" class="inner-width">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -320,7 +430,36 @@
           </div>
       </section>
 
-    <section id="linkedin-section" class="inner-width">
+      <section id="two-column-even" class="inner-width">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div pardot-region="Two Column Even - Left Content" class="intro-content">
+                <p>
+                  In the spring of 2019, Sodexo and ACUHO-I fielded our second
+                  survey of ACUHO-I members. Our shared priority remains
+                  empowering all leaders in campus facilities to understand the
+                  overall strategy and the variety of services available through
+                  partnerships.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div pardot-region="Two Column Even - Right Content" class="intro-content">
+                <p>
+                  In the spring of 2019, Sodexo and ACUHO-I fielded our second
+                  survey of ACUHO-I members. Our shared priority remains
+                  empowering all leaders in campus facilities to understand the
+                  overall strategy and the variety of services available through
+                  partnerships.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+
+    <section id="linkedin-section" class="inner-width" style="position:relative;">
       <div class="block-newsletter">
         <div
           class="inner"
@@ -455,30 +594,58 @@
           <div>
             <code pardot-region="Landing Page Controls" style="opacity:0;">
                 <style type="text/css">
-                /* SET THE FOLLOWING TO display: none; TO HIDE OR display: inherit; TO DISPLAY  */
+                /* SET THE FOLLOWING TO display: none; TO HIDE OR display: block; TO DISPLAY  */
+
+                /* TO CHANGE THE ORDER OF THE SECTIONS, ADJUST THE ORDER FROM 1 TO 7 */
+                
                 #hero {
-                    display:inherit;
-                   
+                    display:block;
+                    order: 1;
                 }
+
                 #full-width-content-1 {
-                    display:inherit;
+                    display:block;
+                    order: 2;
                    
                 }
                 #two-column-form-right {
-                    display:inherit;
+                    display:block;
+                    order: 3;
                   
                 }
+                #two-column-image-right{
+                  display:block;
+                  order: 4;
+                }
+
                 #two-column-form-left {
-                    display:none;
+                    display:block;
+                    order: 5;
                   
                 }
+
+                #two-column-image-left{
+                  display:block;
+                  order: 6;
+                }
+
                 #full-width-content-2 {
-                    display:inherit;
+                    display:block;
+                    order: 7;
+                   
+                }
+                #two-column-even {
+                  display:block;
+                  order: 8;
                    
                 }
                 #linkedin-section {
-                    display:inherit;
+                    display:block;
+                    order: 9;
                    
+                }
+                footer {
+                  order: 10;
                 }
                 </style>
             </code>
