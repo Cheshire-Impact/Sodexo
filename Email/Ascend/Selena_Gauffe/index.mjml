@@ -1,0 +1,175 @@
+<mjml>
+  <mj-head>
+    <mj-title>%%subject%%</mj-title>
+
+
+
+
+    <mj-attributes>
+      <!-- Spacing Defaults -->
+      <mj-all padding="0px" />
+
+      <mj-section padding-left="10px" padding-right="10px" />
+      <mj-column padding="10px" />
+      <mj-button padding-top="5px" padding-bottom="5px" />
+      <mj-divider padding-top="10px" padding-bottom="10px" />
+      <mj-text padding="5px" />
+      <mj-navbar-link padding-left="10px" padding-right="10px" />
+
+      <!-- Handle Pardot Regions -->
+      <mj-section css-class="pardot-repeat-remove" />
+      <mj-navbar-link css-class="pardot-region" />
+      <mj-image rel="pardot-region" />
+      <mj-button css-class="pardot-region" />
+
+      <!-- Background Colors -->
+      <mj-body background-color="#eeeeee" />
+
+      <!-- Default Styles for All Elements -->
+      <mj-all color="#333" font-family="Arial, Helvetica, sans-serif" font-size="14px" line-height="21px" />
+
+      <!-- Image Styling *** NOTE: By Default All Images Are Set To Fluid/Responsive And Have A URL Of #, Manually Adjust Static Images and Remove Links With href="" *** -->
+      <mj-image align="center" fluid-on-mobile="true" href="https://us.sodexo.com/services/sodexomagic.html" />
+
+      <!-- Button Styles -->
+      <mj-button href="#" css-class="space-letters-1" font-size="12px" font-weight="600" text-transform="uppercase" border-radius="0px" border="2px solid #fff" rel="pardot-region" background-color="#fff" color="#f37c38" inner-padding="10px" />
+
+      <mj-class name="btn-active" background-color="#f37c38" color="#fff" border-radius="0px" border="2px solid #f37c38" />
+
+      <mj-class name="btn-blue" background-color="#281c56" color="#fff" border-radius="0px" border="2px solid #281c56" />
+    </mj-attributes>
+
+    <!-- Styles Place In Head -->
+    <mj-style>
+      a {
+        color: #000;
+        text-decoration: underline;
+      }
+
+      a:link {
+        color: #000;
+        text-decoration: underline;
+      }
+
+      a:visited {
+        color: #000;
+        text-decoration:
+          underline;
+      }
+
+      a.greyLink {
+        color: #737373 !important;
+        text-decoration: none !important;
+      }
+
+      a.whiteLink {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
+
+      a.orangeLink {
+        color: #f37b37 !important;
+        text-decoration:
+          none !important;
+      }
+
+      .space-letters-1 {
+        letter-spacing: 1px;
+      }
+    </mj-style>
+
+    <!-- Media Queries -->
+
+    <mj-style>
+      @media (max-width:480px) { td.mobileCenter > div { width: 100% !important;
+      text-align: center !important; } }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column width="50%">
+        <mj-text color="#737373" font-size="12px" align="left" css-class="mobileCenter">
+          Quick email summary
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#737373" font-size="12px" align="right" css-class="mobileCenter">
+          <a href="%%view_online%%" style="color: #737373 !important; text-decoration: underline !important;"><span style="color: #737373 !important; text-decoration: underline !important;">
+              <font style="color: #737373 !important; text-decoration: underline !important;">View Online</font>
+            </span></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/ghxr/786623/29066/SodexoMagic_Logo_wTagline.png" fluid-on-mobile="false" width="140px" align="left" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section background-color="#fff" padding-top="30px" padding-bottom="0px" direction="ltr">
+      <mj-column width="66%">
+        <mj-text color="#281c56" font-size="26px" line-height="28px" font-weight="600">
+          Lorem ipsum dolor sit amet, consectetur
+        </mj-text>
+        <mj-text font-weight="300">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </mj-text>
+        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/ghy1/786623/29074/selena_cuffe_sig.png" fluid-on-mobile="false" width="250px" align="left" padding-top="20px" />
+        <mj-text color="#281c56" font-size="18px" line-height="22px">
+          <strong>Selena Cuffe</strong><br />
+          President, SodexoMagic
+        </mj-text>
+      </mj-column>
+      <mj-column width="33%" padding-bottom="0px" vertical-align="bottom">
+        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/ghyk/786623/29076/Selena_Cuffe_Em_v3.png" alt="" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-left="0px" padding-right="0px">
+      <mj-column padding="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/ghyp/786623/29078/sodexo_magic_divider.png" href="" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#281c56" padding-top="0px" padding-bottom="10px">
+      <mj-column width="33%">
+        <mj-image src="https://storage.pardot.com/786623/29062/sdx_magic_w.png" width="125px" align="left" />
+      </mj-column>
+      <mj-column width="66%" vertical-align="bottom">
+        <mj-text color="#fff" align="right" font-size="12px" padding-bottom="0px">
+          <a href="#unsubscribe" pardot-region="" style="color: #ffffff; text-decoration: none;" target="_blank" title="Unsubscribe">Unsubscribe</a>&nbsp;| &nbsp;
+          <!-- <a href="###" pardot-region="" style="color: #ffffff; text-decoration: none;" target="_blank" title="Preference Center">Preference Center</a>&nbsp;| &nbsp; --><a href="https://www.sodexo.com/home/legal--privacy.html" pardot-region="" style="color: #ffffff; text-decoration: none;" target="_blank" title="Privacy Policy">Privacy &amp; Legal</a>&nbsp; |&nbsp; <a href="https://us.sodexo.com/contact.html" pardot-region="" style="color: #ffffff; text-decoration: none;" target="_blank" title="Contact Us">Contact Us</a>
+        </mj-text>
+        <mj-text color="#fff" align="right" font-size="12px" padding-top="0px">
+          <a href=" https://www.linkedin.com/company/sodexo" style="color: #ffffff; text-decoration: none;" target="_blank" title="Follow us on LinkedIn">Follow Us on LinkedIn</a> | <a href="https://twitter.com/SodexoGroup" style="color: #ffffff; text-decoration: none;" target="_blank" title="Follow Us on Twitter">Follow Us on Twitter</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="12px" color="#737373" align="center">
+          <a class="greyLink" href="%%unsubscribe%%" style="color: #737373 !important; text-decoration: underline !important;"><span style="color: #737373 !important; text-decoration: underline !important;">
+              <font style="color: #737373 !important; text-decoration: underline !important;">Manage Email Preferences</font>
+            </span></a>
+          |
+          <a class="greyLink" href="%%email_preference_center%% " style="color: #737373 !important; text-decoration: underline !important;"><span style="color: #737373 !important; text-decoration: underline !important;">
+              <font style="color: #737373 !important; text-decoration: underline !important;">Unsubscribe</font>
+            </span></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
