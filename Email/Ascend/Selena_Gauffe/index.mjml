@@ -89,7 +89,7 @@
     <mj-section>
       <mj-column width="50%">
         <mj-text color="#737373" font-size="12px" align="left" css-class="mobileCenter">
-          Quick email summary
+          Please join me in welcoming Selena.
         </mj-text>
       </mj-column>
       <mj-column width="50%">
@@ -114,22 +114,33 @@
 
 
     <mj-section background-color="#fff" padding-top="30px" padding-bottom="0px" direction="ltr">
-      <mj-column width="66%">
-        <mj-text color="#281c56" font-size="26px" line-height="28px" font-weight="600">
-          Lorem ipsum dolor sit amet, consectetur
-        </mj-text>
+      <mj-column width="60%" padding-bottom="0px">
         <mj-text font-weight="300">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p>Dear %%first_name%%,</p>
+          <p>I am delighted to announce that SodexoMAGIC has named a President to propel the joint venture between Sodexo and Magic Johnson Enterprise into the future. Selena Cuffe, a successful entrepreneur of a Minority/Women-owned Business Enterprise, brings passion for the SodexoMAGIC mission as well as the leadership experience to strengthen and deliver a compelling value proposition for our clients.</p>
         </mj-text>
-        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/ghy1/786623/29074/selena_cuffe_sig.png" fluid-on-mobile="false" width="250px" align="left" padding-top="20px" />
-        <mj-text color="#281c56" font-size="18px" line-height="22px">
+      </mj-column>
+      <mj-column width="40%" padding-bottom="0px">
+        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/gj79/786623/29088/selena_cuffe_em_v4.png" width="200px" alt="" />
+        <mj-text align="center" color="#281c56" font-size="16px" line-height="18px">
           <strong>Selena Cuffe</strong><br />
           President, SodexoMagic
         </mj-text>
       </mj-column>
-      <mj-column width="33%" padding-bottom="0px" vertical-align="bottom">
-        <mj-image src="https://go.sodexo.com/l/786623/2020-02-28/ghyk/786623/29076/Selena_Cuffe_Em_v3.png" alt="" />
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column padding-top="0px" padding-bottom="20px">
+        <mj-text padding-top="0px">
+          <p>Selena joins SodexoMAGIC with a proven ability to lead teams and grow businesses simultaneously. She has more than 15 years of experience, notably as co-founder and CEO of Heritage Links Brand, an L.A.-based, MWBE-certified wine enterprise that was driven by her commitment to build partnerships between America and Africa. As CEO, Selena successfully led the brand’s development from concept to sustainable operations and today it exceeds 70M liters sold annually.</p>
+
+          <p>Most recently, she served as head of strategy and operations for a technology start-up. She holds a BA in International Relations from Stanford University and an MBA from Harvard Business School.</p>
+
+          <p>Selena will oversee the SodexoMAGIC portfolio, comprised of 1,700 U.S. client sites and 6,500 employees, in partnership with Sodexo’s business lines and senior leaders.</p>
+
+          <p>Selena is a lifetime member of the Council on Foreign Relations, served as vice president on Harvard Business School’s alumni board and as a member of the advisory council for Stanford University's Bing Overseas Studies Program. She has been recognized for her work as an entrepreneur and visionary with several awards, including: Woman Trailblazer Award (Brooklyn Library, 2019); Vision in Wine Award (Black Culinary Association, 2016), and Small Business of the Year Award (Black Enterprise magazine, 2010).</p>
+
+          <p>Please join me in welcoming Selena. Together, we look forward to our continued partnership.</p>
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-left="0px" padding-right="0px">
