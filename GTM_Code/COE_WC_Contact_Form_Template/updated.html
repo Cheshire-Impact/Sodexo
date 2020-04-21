@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="https://go.sodexo.com" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="%%description%%" />
+    <title>%%title%%</title>
+    <link
+      href="https://go.sodexo.com/l/786623/2019-08-30/p62/786623/6279/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://go.sodexo.com/l/786623/2019-08-26/jfj/786623/5811/form_basic_landing_page_v1.css"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      span.description {
+        font-size: 14px !important;
+        position: relative;
+        top: -15px;
+        left: -10px;
+      }
+      .field-label {
+        padding-bottom: 10px;
+        font-size: 14px !important;
+      }
+      form.form p.form-field label {
+        font-size: 12px !important;
+      }
+
+      .description {
+        margin: 10px 0 0 58px !important;
+      }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-W8P4FBQ");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    %%content%%
+
+    <!-- jQuery, Popper JS, and Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- // End jQuery, Popper JS, and Bootstrap -->
+
+    <!-- Google Tag Manager Scripts -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-4529274-1"
+    ></script>
+    <script type="text/javascript">
+      var id = "UA-4529274-1";
+      var page = document.location.pathname;
+      var param = window.location.search.substring(1).trim();
+      if (param != null && param != "") {
+        page = page + "?" + window.location.search.substring(1);
+      }
+
+      //   <!-- Google Analytics -->
+      // Pages tracking
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-4529274-1");
+
+      //   <!-- End Google Analytics -->
+    </script>
+    <script type="text/javascript">
+      // Files links tracking
+      $("a").each(function () {
+        if (
+          $(this).attr("href") != null &&
+          $(this).attr("href").indexOf("/files/") > -1
+        ) {
+          $(this).click(function () {
+            var link = $(this).attr("href");
+            gtag("event", "Click", {
+              event_category: "Files Links Tracking",
+              event_action: "Click",
+              event_label: link,
+            });
+          });
+        }
+      });
+
+      // Promobox Links tracking
+      $("div.block-solutions a").each(function () {
+        if ($(this).attr("href") != null) {
+          $(this).click(function () {
+            var linkPromoBox = $(this).attr("href");
+            gtag("event", "Click", {
+              event_category: "Promobox Links Tracking",
+              event_action: "Click",
+              event_label: linkPromoBox,
+            });
+          });
+        }
+      });
+
+      // Header Banner/Slider Links tracking
+      $("div.block-headerbanner a, div.block-headerbanner-home a").each(
+        function () {
+          if ($(this).attr("href") != null) {
+            $(this).click(function () {
+              var linkBanner = $(this).attr("href");
+              gtag("event", "Click", {
+                event_category: "Header Banner/Slider Links Tracking",
+                event_action: "Click",
+                event_label: linkBanner,
+              });
+            });
+          }
+        }
+      );
+
+      // Contact Form tracking
+      $("div.block-contact-form").each(function () {
+        if ($(this).find("button.button button-1 button-submit")) {
+          $(this).click(function () {
+            if (urlParam.get("error") == "false") {
+              gtag("event", "Click", {
+                event_category: "Contact Form tracking",
+                event_action: "Click",
+                event_label: linkSlideShow,
+              });
+            }
+          });
+        }
+      });
+
+      // SlideShow Links tracking
+      $("div.block-article-slideshow a").each(function () {
+        if ($(this).attr("href") != null) {
+          $(this).click(function () {
+            var linkSlideShow = $(this).attr("href");
+            gtag("event", "Click", {
+              event_category: "SlideShow Links Tracking",
+              event_action: "Click",
+              event_label: linkSlideShow,
+            });
+          });
+        }
+      });
+
+      // Guided sentence tracking
+      $("div.container").each(function () {
+        if (
+          $(this)
+            .find("button")
+            .hasClass('form-submit button button-7:not(".disabled")')
+        ) {
+          $("#filters-switch").on("submit", function (e) {
+            //use on if jQuery 1.7+
+            e.preventDefault(); //prevent form from submitting
+            var dataGuidedSentence = $(
+              "#filters-switch :input"
+            ).serializeArray();
+            gtag("event", "Click", {
+              event_category: "Guided sentence tracking",
+              event_action: "Click",
+              event_label: dataGuidedSentence,
+            });
+          });
+        }
+      });
+
+      // Contact us tracking
+      $("div.container-user a").each(function () {
+        if ($(this).attr("href") != null) {
+          $(this).click(function () {
+            var linkContact = $(this).attr("href");
+            var titleContact = $(this).closest("p.title-4 subtitle").text();
+            var jobContact = $(this).closest("p.job").text();
+            gtag("event", "Click", {
+              event_category: "Contact us tracking",
+              event_action: "Click",
+              event_label: titleContact + "|" + jobContact + "|" + linkContact,
+            });
+          });
+        }
+      });
+
+      // Sticky button tracking
+      $("div.sticky-content active").each(function () {
+        // Phone button
+        if ($(this).children("p.phone a.link").attr("href") != null) {
+          $(this).click(function () {
+            var phoneButton = $(this).attr("href");
+            gtag("event", "Click", {
+              event_category: "Sticky button tracking",
+              event_action: "Click",
+              event_label: phoneButton,
+            });
+          });
+        }
+        // Share button
+        else if (
+          $(this)
+            .children("div.at-share-btn-elements a")
+            .each(function () {
+              $(this).click(function () {
+                var shareButton = $(this).attr("role");
+                var socialMediaButton = $(this)
+                  .children("span.at4-visually-hidden")
+                  .text();
+                gtag("event", "Click", {
+                  event_category: "Sticky button tracking",
+                  event_action: "Click",
+                  event_label: shareButton + "|" + socialMediaButton,
+                });
+              });
+            })
+        );
+        else if ($(this).children("div.print a.link").attr("href") != null) {
+          // Print button
+          $(this).click(function () {
+            var printButton = $(this).attr("href");
+            gtag("event", "Click", {
+              event_category: "Sticky button tracking",
+              event_action: "Click",
+              event_label: printButton,
+            });
+          });
+        }
+      });
+
+      // Footer Links tracking
+      $("div.information-social a, div.information-mentions a").each(
+        function () {
+          if (
+            $(this).hasClass("information-social") &&
+            $(this).attr("href") != null
+          ) {
+            $(this).click(function () {
+              var linkFooter = $(this).attr("href");
+              gtag("event", "Click", {
+                event_category: "Footer Social media links Tracking",
+                event_action: "Click",
+                event_label: linkFooter,
+              });
+            });
+          } else {
+            $(this).click(function () {
+              var linkFooter = $(this).attr("href");
+              gtag("event", "Click", {
+                event_category: "Footer links Tracking",
+                event_action: "Click",
+                event_label: linkFooter,
+              });
+            });
+          }
+        }
+      );
+    </script>
+
+    <!-- // End Google Tag Manager Scripts -->
+
+    <!-- CI - Custom GTM Scripts -->
+
+    <script>
+      $(document).ready(function () {
+        // Initialize Variables
+        var pardot_form_title = window.title;
+        var pardot_industry;
+
+        // Capture the Industry Field Value
+        $("#pardot-form p.industry select").change(function () {
+          pardot_industry = $(this).children("option:selected").val();
+
+          dataLayer.push({
+            industry: pardot_industry,
+            form_title: pardot_form_title,
+          });
+        });
+      });
+    </script>
+
+    <!-- // CI - Custom GTM Scripts -->
+  </body>
+</html>
