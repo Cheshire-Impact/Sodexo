@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="https://go.sodexo.com" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="%%description%%" />
+    <title>%%title%%</title>
+    <link
+      href="https://go.sodexo.com/l/786623/2019-08-30/p62/786623/6279/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://go.sodexo.com/l/786623/2019-08-26/jfj/786623/5811/form_basic_landing_page_v1.css"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      span.description {
+        font-size: 14px !important;
+        position: relative;
+        top: -15px;
+        left: -10px;
+      }
+      .field-label {
+        padding-bottom: 10px;
+        font-size: 14px !important;
+      }
+      form.form p.form-field label {
+        font-size: 12px !important;
+      }
+
+      .description {
+        margin: 10px 0 0 58px !important;
+      }
+
+      #pardot-form p.form-field {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      #pardot-form .pd-checkbox input + label::before {
+        padding: 0px;
+      }
+      #pardot-form p.form-field label {
+        font-size: 14px !important;
+      }
+
+      #pardot-form span.description {
+        font-size: 12px !important;
+        width: 100% !important;
+        top: 0px;
+        left: 0px;
+        margin-left: 0px !important;
+        margin-top: 5px !important;
+        font-style: italic;
+      }
+
+      @media (min-width: 768px) {
+        #pardot-form span.description {
+          margin-left: 33px !important;
+        }
+      }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-W8P4FBQ");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    %%content%%
+
+    <!-- GTM Script -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-4529274-1"
+    ></script>
+
+    <!-- jQuery, Popper JS, and Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- // End jQuery, Popper JS, and Bootstrap -->
+
+    <!-- CI - Custom GTM Scripts -->
+    <script type="text/javascript">
+      // FIRST - GET THE GAUSERID WHEN THE EMAIL FIELD CHANGES
+
+      $(document).ready(function () {
+        $("p.email input").change(function () {
+          var GAUSERID = $(this).val();
+          $("p.GAUSERID input").val(GAUSERID);
+        });
+      });
+
+      // SECOND - RETRIEVE THE GACLIENTID AND GATRACKID FIELDS FROM THE IFRAME SRC
+      // Parse the URL
+      function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+          results = regex.exec(location.search);
+        return results === null
+          ? ""
+          : decodeURIComponent(results[1].replace(/\+/g, " "));
+      }
+      // Give the URL parameters variable names
+      var GACLIENTID = getParameterByName("GACLIENTID");
+      var GATRACKID = getParameterByName("GATRACKID");
+
+      // Put the variable names into the hidden fields in the form.
+      document.querySelector("p.GACLIENTID input").value = GACLIENTID;
+      document.querySelector("p.GATRACKID input").value = GATRACKID;
+    </script>
+    <!-- // CI - Custom GTM Scripts -->
+  </body>
+</html>
