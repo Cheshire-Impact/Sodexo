@@ -105,13 +105,15 @@
     <!-- // End jQuery, Popper JS, and Bootstrap -->
 
     <!-- CI - Custom GTM Scripts -->
+    <script src="https://go.sodexo.com/l/786623/2020-04-22/n8mn/786623/36635/sha256.min.js"></script>
     <script type="text/javascript">
       // FIRST - GET THE GAUSERID WHEN THE EMAIL FIELD CHANGES
 
       $(document).ready(function () {
         $("p.email input").change(function () {
           var GAUSERID = $(this).val();
-          $("p.GAUSERID input").val(GAUSERID);
+          var hGAUSERID = sha256(GAUSERID);
+          $("p.GAUSERID input").val(hGAUSERID);
         });
       });
 

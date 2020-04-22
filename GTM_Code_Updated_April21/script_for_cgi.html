@@ -1,0 +1,73 @@
+<!-- BEFORE -->
+
+<iframe
+  allowtransparency="true"
+  frameborder="0"
+  height="1000px"
+  scrolling="no"
+  src="https://go.sodexo.com/l/786623/2019-09-13/27l4"
+  style="border: 0; overflow: hidden;"
+  type="text/html"
+  width="100%"
+></iframe>
+
+<!-- AFTER -->
+<iframe
+  id="pardot_iframe"
+  allowtransparency="true"
+  frameborder="0"
+  height="1000px"
+  scrolling="no"
+  src="https://go.sodexo.com/l/786623/2019-09-13/27l4"
+  style="border: 0; overflow: hidden;"
+  type="text/html"
+  width="100%"
+></iframe>
+
+<!-- Add a <div> to hold the new_pardot_form -->
+<div id="new_pardot_form"></div>
+
+<script type="text/javascript">
+  ga(function () {
+    // Retrieve the GA Variables from Tag Manager
+
+    var tracker = ga.getAll()[0];
+    var trackingId = tracker.get("trackingId");
+    var clientId = tracker.get("clientId");
+
+    // Hide the original Pardot iFrame: Note - the Pardot iFrame needs to have an id="pardot_iframe"
+
+    var original_iframe = document.getElementById("pardot_iframe");
+
+    original_iframe.style.display = "none";
+
+    // Get the required attributes for the original Pardot iFrame - Note: We will just capture 'src', 'width', and 'height' and preset everything else
+
+    var new_iframe_width = original_iframe.getAttribute("width");
+    var new_iframe_height = original_iframe.getAttribute("height");
+    var original_iframe_src = original_iframe.getAttribute("src");
+
+    // Now we can append the GA Variables to the new iFrame's source
+
+    var new_iframe_src =
+      original_iframe_src +
+      "?GACLIENTID=" +
+      clientId +
+      "&GATRACKID=" +
+      trackingId;
+
+    // Now we can construct the new iFrame
+
+    var new_iframe_html =
+      "<iframe allowtransparency='true' frameborder='0' height='" +
+      new_iframe_height +
+      "' scrolling='no' src='" +
+      new_iframe_src +
+      "' style='border: 0; overflow: hidden;' type='text/html' width='" +
+      new_iframe_width +
+      "'></iframe>";
+
+    // Last, we can insert the new iFrame into the #new_pardot_form <div>
+    document.getElementById("new_pardot_form").innerHTML = new_iframe_html;
+  });
+</script>
